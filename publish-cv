@@ -1,0 +1,2 @@
+#!/bin/bash
+cp cv-draft/index.html cv/index.html
