@@ -1,2 +1,3 @@
 #!/bin/bash
 cp cv-draft/index.html cv/index.html
+git add cv cv-draft
