@@ -1,0 +1,122 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+<link href="https://unpkg.com/material-resume@1.0.1/resume.min.css" rel="stylesheet">
+<script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
+
+</head><body ng-app="Resume" ng-cloak="">
+
+    <resume>
+        <resume-heading first-name="Michael" last-name="Lutsiuk"
+                        linkedin="michael-lutsiuk-b36b4860" github="mluts"
+                        email="michael.lutsiuk@gmail.com">
+        </resume-heading>
+
+        <resume-body>
+            <resume-column flex="20">
+                <sidebar-category name="Education">
+                    <p>Kyiv National University Of Technology And Design</p>
+                    <p>Graduating May 2012</p>
+                    <p>Industrial Automation</p>
+                    <p>Computer-integrated manufacturing</p>
+                </sidebar-category>
+
+                <sidebar-category name="Programming Languages i love">
+                    <p>Ruby</p>
+                    <p>Go</p>
+                    <p>C</p>
+                </sidebar-category>
+
+                <sidebar-category name="Languages that i also worked with">
+                    <p>JavaScript</p>
+                    <p>Bash</p>
+                    <p>Lua</p>
+                    <p>C++</p>
+                    <p>Java</p>
+                </sidebar-category>
+
+                <sidebar-category name="Interests">
+                    <p>Computer Science</p>
+                    <p>Hardware</p>
+                    <p>Math</p>
+                    <p>Music</p>
+                </sidebar-category>
+            </resume-column>
+
+            <resume-column flex="80">
+                <category name="Professional Experience">
+                    <category-item title="Ruby Engineer" subtitle="Vertalab (July 2013 - October 2014)">
+                        <li>Made a big participation in development of a video-streaming service.</li>
+                        <li>Worked a lot with third-party API's.</li>
+                        <li>Implemented few experimental projects with social networks integration.
+                            Mostly with a lot of javascript code and intensive background jobs.</li>
+                        <li>Participated in development of biggest event provider service in Lviv, Ukraine.</li>
+                        <li>Solely developed a service which creates an AWS instance running a proxy server for
+                            speeding up the given website.</li>
+                    </category-item>
+
+                    <category-item title="Ruby Engineer" subtitle="Vertalab (July 2013 - October 2014)">
+                        <li>Made a big participation in development of a video-streaming service.</li>
+                        <li>Worked a lot with third-party API's.</li>
+                        <li>Implemented few experimental projects with social networks integration.
+                            Mostly with a lot of javascript code and intensive background jobs.</li>
+                        <li>Participated in development of biggest event provider service in Lviv, Ukraine.</li>
+                        <li>Solely developed a service which creates an AWS instance running a proxy server for
+                            speeding up the given website.</li>
+                    </category-item>
+
+                    <category-item title="Ruby Engineer" subtitle="Smartnet (January 2013 - June 2013)">
+                        <li>Maintenance and development of a single project belonging to the company.</li>
+                        <li>Did a lot of work with third-party API's integration.</li>
+                        <li>Was working on performance optimization.</li>
+                    </category-item>
+
+                    <category-item title="Ruby On Rails Junior" subtitle="Seven (August 2012 - December 2012)">
+                        <li>Legacy projects maintenance.</li>
+                        <li>MVP development</li>
+                    </category-item>
+
+                </category>
+                <!-- <category name="Projects"> -->
+                <!--     <category&#45;item title="In&#45;It&#45;For&#45;The&#45;Prizes" subtitle="Penn Apps Spring 2016 (Finalist)"> -->
+                <!--         <li>Such and amazing app that did a lot of things</li> -->
+                <!--         <li>Integrations with Uber, Postmates, Spotify, and Office 365</li> -->
+                <!--         <li>Written with Ionic Framework and hosted on Kubernetes 😎 for the cred</li> -->
+                <!--     </category&#45;item> -->
+                <!--     <category&#45;item title="FoodStash" subtitle="Hophacks Spring 2016 (2nd Place)"> -->
+                <!--         <li>Food&#45;storage&#45;as&#45;a&#45;Service app that lets people put their food in your fridge</li> -->
+                <!--         <li>All storage and payment in based on the blockchain with Ethereum and Mist</li> -->
+                <!--     </category&#45;item> -->
+                <!--     <category&#45;item title="Turnup" subtitle="github.com/tswizzle/turnup"> -->
+                <!--         <li>A new programming language with a focus on developers turning up</li> -->
+                <!--         <li>Implemented in Go and requires Docker 1.12 with Ceph on CoreOS</li> -->
+                <!--     </category&#45;item> -->
+                <!-- </category> -->
+                <!-- <category name="Skills"> -->
+                <!--     <category&#45;item title="Web Development"> -->
+                <!--         <li><strong>Dank Memes</strong> I can find the deepest, dankest memes out there on the inerwebs</li> -->
+                <!--         <li><strong>Distributed Systems</strong> I only run my apps on Kubernetes and a CoreOS cluster</li> -->
+                <!--         <li><strong>Tooling</strong> I literally treat Dan Abromov's Twitter as holy gospel</li> -->
+                <!--         <li><strong>Frameworks</strong> React, Redux, Reselect, Redankmeme, Revenant, Angular</li> -->
+                <!--     </category&#45;item> -->
+                <!--     <category&#45;item title="Technologies"> -->
+                <!--         <li><strong>Experienced With</strong> Web &#38;amp; Hybrid App Development \ Functional Programming</li> -->
+                <!--         <li><strong>Programming</strong> Javascript \ Scala \ Python \ PHP \ C \ Java</li> -->
+                <!--         <li><strong>Databases</strong> RethinkDB \ MongoDB \ MySQL \ PostgreSQL \ Redis</li> -->
+                <!--     </category&#45;item> -->
+                <!-- </category> -->
+            </resume-column>
+        </resume-body>
+    </resume>
+
+
+</body></html>
