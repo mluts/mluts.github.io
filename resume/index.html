@@ -1,0 +1,144 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+<link href="https://unpkg.com/material-resume@1.0.1/resume.min.css" rel="stylesheet">
+<script src="https://unpkg.com/material-resume@1.0.1/resume.min.js"></script>
+
+</head><body ng-app="Resume" ng-cloak="">
+    <resume>
+        <resume-heading first-name="Michael" last-name="Lutsiuk"
+                        linkedin="mluts" github="mluts"
+                                         phone=""
+                        email="michael.lutsiuk@gmail.com">
+        </resume-heading>
+
+        <resume-body>
+            <resume-column flex="20">
+                <sidebar-category name="Education">
+                    <p>Kyiv National University Of Technology And Design</p>
+                    <p>Graduating May 2012, Mechatronics</p>
+                </sidebar-category>
+
+                <sidebar-category name="Languages with Hands-On Experience">
+                    <p><b>Over 5 years:</b></p>
+                    <p>Ruby, Clojure</p>
+                    <p><b>Over 2 years:</b></p>
+                    <p>Elixir, Python</p>
+                    <p><b>Hobby languages:</b></p>
+                    <p>Go, Rust</p>
+                </sidebar-category>
+
+                <!-- <sidebar-category name="Languages with hands-on experience > 2 years"> -->
+                <!--     <p>Elixir</p> -->
+                <!--     <p>Python</p> -->
+                <!-- </sidebar-category> -->
+
+                <!-- <sidebar-category name="Hobby languages"> -->
+                <!--     <p>Go</p> -->
+                <!--     <p>Rust</p> -->
+                <!-- </sidebar-category> -->
+
+                <sidebar-category name="Recent technologies">
+                    <p>Proficient in, but not limited to:</p>
+                    <p>Apache Cassandra, Apache Spark, EMR, S3, PostgreSQL, ElasticSearch, Redis</p>
+                    <!-- <p>Apache Cassandra</p> -->
+                    <!-- <p>Apache Cassandra</p> -->
+                    <!-- <p>Apache Spark</p> -->
+                    <!-- <p>EMR</p> -->
+                    <!-- <p>S3</p> -->
+                    <!-- <p>PostgreSQL</p> -->
+                    <!-- <p>ElasticSearch</p> -->
+                    <!-- <p>Redis</p> -->
+                </sidebar-category>
+
+                <!-- <sidebar-category name="Languages that i also worked with"> -->
+                <!--     <p>JavaScript</p> -->
+                <!--     <p>Bash</p> -->
+                <!--     <p>Lua</p> -->
+                <!--     <p>C++</p> -->
+                <!--     <p>Java</p> -->
+                <!-- </sidebar-category> -->
+
+                <!-- <sidebar-category name="Technologies i worked with"> -->
+                <!--   <p>MySQL, PostgreSQL, Redis, MongoDB, Microsoft SQLServer</p> -->
+                <!--   <p>ElasticSearch, Sphinx</p> -->
+                <!-- </sidebar-category> -->
+
+                <!-- <sidebar-category name="Interests"> -->
+                <!--     <p>Computer Science</p> -->
+                <!--     <p>Hardware</p> -->
+                <!--     <p>Math</p> -->
+                <!--     <p>Music</p> -->
+                <!-- </sidebar-category> -->
+            </resume-column>
+
+            <resume-column flex="80">
+                <category name="Professional Experience">
+                    <category-item title="Senior Data Engineer" subtitle="Vertalab (February 2018 - March 2024)">
+                        <li>Worked on ETL data pipelines, implemented data APIs, and streamlined data access for on-the-fly aggregations from the data warehouse using DAG to resolve data dependencies.</li>
+                        <li>Implemented predictive models and analyzed new datasets for business intelligence models.</li>
+                        <li>Developed data ingestion processes, transforming raw data for queries on Cassandra and S3-based storage using Clojure and Apache Spark.</li>
+                        <li>Refactored and improved Salesforce integration using Elixir, enriching client data with warehouse data and devising algorithms for effective data matching, enhancing company prospects.</li>
+                    </category-item>
+
+                    <category-item title="Ruby Engineer" subtitle="Vertalab (April 2016 - February 2018)">
+                        <li>Maintained and developed new features for a B2B project managing student loans.</li>
+                        <li>Untangled low-quality code, improving results significantly.</li>
+                        <li>Enhanced TDD practices, increasing code coverage from 5% to 80%.</li>
+                        <li>Simplified complex business logic in enterprise applications.</li>
+                    </category-item>
+
+                    <category-item title="Ruby Engineer" subtitle="OnApp (November 2014 - March 2016)">
+                        <li>Extensively worked with RabbitMQ and Redis.</li>
+                        <li>Developed a custom background-jobs system for specific project needs.</li>
+                        <li>Gained experience with virtualization and VM monitoring.</li>
+                        <li>Tackled concurrent and parallel code challenges.</li>
+                    </category-item>
+
+                    <category-item title="Ruby Engineer" subtitle="Vertalab (July 2013 - October 2014)">
+                        <li>Contributed significantly to the development of a video-streaming service.</li>
+                        <li>Integrated third-party APIs extensively.</li>
+                        <li>Developed experimental projects with social network integration.</li>
+                        <li>Worked on the biggest event provider service in Lviv, Ukraine.</li>
+                        <li>Developed a service creating AWS instances running proxy servers for website speed optimization.</li>
+                    </category-item>
+
+                    <category-item title="Ruby Engineer" subtitle="Smartnet (January 2013 - June 2013)">
+                        <li>Maintained and developed a company-owned project.</li>
+                        <li>Focused on third-party API integration and performance optimization.</li>
+                    </category-item>
+
+                    <category-item title="Ruby On Rails Junior" subtitle="Seven (August 2012 - December 2012)">
+                        <li>Maintained legacy projects and developed MVPs.</li>
+                    </category-item>
+                </category>
+                <!-- <category name="Technical Skills"> -->
+                <!--     <category-item title="Best"> -->
+                <!--         <li>Ruby</li> -->
+                <!--         <li>Ruby On Rails</li> -->
+                <!--         <li>Shell-scripting</li> -->
+                <!--         <li>Linux Administration</li> -->
+                <!--         <li>JavaScript</li> -->
+                <!--     </category-item> -->
+
+                <!--     <category-item title="Medium"> -->
+                <!--       <li>C Programming</li> -->
+                <!--       <li>Go Programming</li> -->
+                <!--       <li>Web UI development</li> -->
+                <!--     </category-item> -->
+                <!-- </category> -->
+            </resume-column>
+        </resume-body>
+    </resume>
+
+
+</body></html>
